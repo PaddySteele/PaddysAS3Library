@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<paddysAS3Example>
+	<header>
+		
+	</header>
+	<pages>
+		<page id="1" name="home">
+			<heading><![CDATA[<font color="#FFFFFF">page one</font>]]></heading>
+			<content><![CDATA[<font color="#FFFFFF">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu libero lectus, a hendrerit magna.</font>]]></content>
+		</page>
+		<page id="2" name="news">
+			<heading><![CDATA[<font color="#FFFFFF">page two</font>]]></heading>
+			<content><![CDATA[<font color="#FFFFFF">consectetur <i>adipiscing elit</i>. consectetur adipiscing elit Proin eu libero lectus, a hendrerit magna.</font>]]></content>
+		</page>
+		<page id="3" name="contact">
+			<heading><![CDATA[<font color="#FFFFFF">page three</font>]]></heading>
+			<content><![CDATA[<font color="#FFFFFF">Proin eu libero, <b>consectetur</b> adipiscing elit. Proin eu libero lectus, a hendrerit magna.</font>]]></content>
+		</page>			
+	</pages>
+	<settings>
+		<property id="testPropA" value="27 Paddy rocks!"/>
+		<property id="testPropB" value="hello"/>
+		<property id="bgColour" value="0xFFCC00"/>
+	</settings>
+	<text>
+		<property id="txtA" value="Oasis"/>
+		<property id="txtB" value="Primal Scream"/>
+	</text>
+	<colors>
+		<!--Colors for NavigationView-->
+		<property id="colNavigationBarBg" value="0xC1C2DD"/>
+		<property id="colNavigationBarTxt" value="0x2090C8"/>
+	</colors>
+</paddysAS3Example>
